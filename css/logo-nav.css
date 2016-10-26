@@ -18,9 +18,12 @@ body {
     background:663300;
     color:#fff;
 }
-.navbar-inverse .navbar-nav > li >a:active(
-    background#f00;
-    color#fff;
+.navbar-inverse .navbar-nav > li >a{
+    background:#000;
+   }
+.navbar-inverse  .navbar-nav > li >a:active{
+    background:#000;
+    color:#fff;
 }
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
@@ -28,9 +31,37 @@ body {
 .jumbotron{
     padding:0;
     background:#663300;
-    color:000;
+    color:#000;
+}
+.carousel-inner  > .item > img,
+    .carousel-inner > .item > a > img {
+            width: 70%;
+            margin: auto;
+            color:#000;
+}
+hr{
+    height:2px;
+        background-color:#663300;
+}
+.gallery{ 
+    float:left;
+    margin:10px;
+    padding:5px;
+    width:305px;
+    height:250px;
+    border: 2px solid #663300;
 }
 
+.gallery h4{ 
+    background: #663300;
+    color:#fff;
+    font-weight:bolder;
+    font-family: arial;
+    text-align:center;
+    }
+p.list-group-item-text{
+ padding-left:5px;   
+}
 @media(min-width:768px) {
     body {
         padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
