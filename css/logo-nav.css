@@ -33,7 +33,7 @@ body {
     background:#663300;
     color:#000;
 }
-.carousel-inner  > .item > img,
+    .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
             width: 70%;
             margin: auto;
